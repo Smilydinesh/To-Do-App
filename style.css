@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: lightcoral;
+    display: grid;
+    place-items: center;
+}
+
+body{
+    background-color: cadetblue;
+    width: 60%;
+    text-align: center;
+}
+
+.header{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.summary{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    display: grid;
+    place-items: start;
+}
+
+.summary p{
+    padding: 5px;
+}
+
+#entry-form{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+#description{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#amount{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#type{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: greenyellow;
+}
+
+.filter{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px;
+}
+
+#entries-table{
+    padding: 10px;
+    margin: 10px;
+}
+
+#entries-body{
+    font-weight: 600;
+    font-size: 20px;
+    border: 2px solid aqua;
+}
+
+.actions button1{
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}    
+
+.actions button1:hover{
+    background-color: yellowgreen;
+}
+
+#entries-body td{
+    background-color: bisque;
+    padding: 10px;
+}
+
+.actions{
+    display: flex;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.actions button2{
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}    
+
+.actions button2:hover{
+    background-color: red;
+}
+
+@media (max-width: 660px){
+    body{
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px){
+    body{
+        width: 100%;
+    }
+}
